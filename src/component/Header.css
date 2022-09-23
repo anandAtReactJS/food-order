@@ -1,12 +1,12 @@
 .navbar{
-    width: 100vw;
+    width: 100%;
     height: 8vh;
     display: flex;
     align-items: center;
     padding: 0px 25px;
     justify-content: space-between;
     background-color: rgb(121, 9, 250);
-    color: white;
+    
 }
 .navbar .classlist{
     list-style: none;
