@@ -1,0 +1,44 @@
+.navbar{
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    padding: 0px 25px;
+    justify-content: space-between;
+    background-color: rgb(121, 9, 250);
+    color: white;
+}
+.navbar .classlist{
+    list-style: none;
+    width: 15%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 0%;
+}
+.search{
+    border-radius: 13px;
+    
+    
+}
+input{
+    padding-right: 180px;
+    margin-left: 50px;
+    border-color: beige;
+    border-style: none;
+}
+.searcgbar{
+    width: 100%;
+    padding-right: 180px;
+}
+.image{
+    height: 10px;
+    width: 20px;
+}
+.drpdown{
+    border-color: beige;
+    margin-left: 40px;
+}
+.searchbar{
+    border-radius: 15px;
+}
