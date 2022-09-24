@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel';
 import '../homepage/homepage.css';
@@ -7,6 +7,11 @@ import img2 from '../homepage/img-2.png';
 import 'font-awesome/css/font-awesome.min.css';
 
 function HomePage() {
+
+    const [menu, setMenu] = useState([]);
+
+    fetch('http://localhost:3000/food-order/menu.json').then(data => data.json()).then(menu => setMenu(menu));
+
     return (
         <div>
             <Carousel >
@@ -51,97 +56,24 @@ function HomePage() {
             <section className="bg-light py-4 my-5">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12">
                             <h2 style={{ color: 'black', fontFamily: 'cursive', fontStyle: 'italic', textAlign: 'center' }}>Explore Foodies Menu</h2>
-                        </div>
-
-                        <div className="col-md-6 col-lg-4">
-                            <div className="card my-3">
-                                <div className="card-thumbnail">
-                                    <img src="https://images.unsplash.com/photo-1559067933-0293effe6133?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJ1cmdlcnxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60" className="img-fluid" alt="thumbnail" />
-                                </div>
-                                <div className="card-body">
-                                    <h3 className="card-title">Burgers</h3>
-                                    <p className="card-text">We make everything by hand with best ingredients.</p>
-                                    <p>Time: 25-30 Minutes | Serves: 1</p>
-                                    <span>$9.20 <del>$10.70</del></span>
-                                    <a href="#" className="btn btn-danger">Order Now</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-md-6 col-lg-4">
-                            <div className="card my-3">
-                                <div className="card-thumbnail">
-                                    <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGl6emF8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" className="img-fluid" alt="thumbnail" />
-                                </div>
-                                <div className="card-body">
-                                    <h3 className="card-title">Pizza</h3>
-                                    <p className="card-text">We make everything by hand with best ingredients.</p>
-                                    <p>Time: 25-30 Minutes | Serves: 1</p>
-                                    <span>$9.20 <del>$10.70</del></span>
-                                    <a href="#" className="btn btn-danger">Order Now</a>
+                        {menu.map(food => (
+                            <div id={menu.id} className="col-md-6 col-lg-4">
+                                <div className="card my-3">
+                                    <div className="card-thumbnail">
+                                        <img src={food.pimg} className="img-fluid" alt="thumbnail" />
+                                    </div>
+                                    <div className="card-body">
+                                        <h3 className="card-title">{food.name}</h3>
+                                        <p className="card-text">{food.desc}</p>
+                                        <p>{food.time}| Serves: 1</p>
+                                        <span>${food.price} <del>$10.70</del></span>
+                                        <a href="#" className="btn btn-danger">Order Now</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div className="col-md-6 col-lg-4">
-                            <div className="card my-3">
-                                <div className="card-thumbnail">
-                                    <img src="https://images.unsplash.com/photo-1436327266874-c2e4e1ac7a97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fGNoaW5lc2UlMjAlMjBmb29kfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60" className="img-fluid" alt="thumbnail" />
-                                </div>
-                                <div className="card-body">
-                                    <h3 className="card-title">Chinese Cusine</h3>
-                                    <p className="card-text">We make everything by hand with best ingredients.</p>
-                                    <p>Time: 25-30 Minutes | Serves: 1</p>
-                                    <span>$9.20 <del>$10.70</del></span>
-                                    <a href="#" className="btn btn-danger">Order Now</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-md-6 col-lg-4">
-                            <div className="card my-3">
-                                <div className="card-thumbnail">
-                                    <img src="https://images.unsplash.com/photo-1526401281623-279b498f10f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGNvZmZlZXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60" className="img-fluid" alt="thumbnail" />
-                                </div>
-                                <div className="card-body">
-                                    <h3 className="card-title">Coffee</h3>
-                                    <p className="card-text">We make everything by hand with best ingredients.</p>
-                                    <p>Time: 25-30 Minutes | Serves: 1</p>
-                                    <span>$9.20 <del>$10.70</del></span>
-                                    <a href="#" className="btn btn-danger">Order Now</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-md-6 col-lg-4">
-                            <div className="card my-3">
-                                <div className="card-thumbnail">
-                                    <img src="https://images.unsplash.com/photo-1638176066666-ffb2f013c7dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWlsa3NoYWtlfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60" className="img-fluid" alt="thumbnail" />
-                                </div>
-                                <div className="card-body">
-                                    <h3 className="card-title">MilkShakes</h3>
-                                    <p className="card-text">We make everything by hand with best ingredients.</p>
-                                    <p>Time: 25-30 Minutes | Serves: 1</p>
-                                    <span>$9.20 <del>$10.70</del></span>
-                                    <a href="#" className="btn btn-danger">Order Now</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-md-6 col-lg-4">
-                            <div className="card my-3">
-                                <div className="card-thumbnail">
-                                    <img src="https://www.markuptag.com/images/image-six.jpg" className="img-fluid" alt="thumbnail" />
-                                </div>
-                                <div className="card-body">
-                                    <h3 className="card-title"><a href="#" className="text-secondary">Where does it come from?</a></h3>
-                                    <p className="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classNameical Latin literature from 45 BC, making it</p>
-                                    <a href="#" className="btn btn-danger">Read More</a>
-                                </div>
-                            </div>
-                        </div>
+                        ))}
                     </div>
                 </div>
             </section>
