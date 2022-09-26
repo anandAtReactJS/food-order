@@ -26,11 +26,11 @@ const Menu = () => {
                                 <div className="card my-3">
                                     <img src={burger.pimg} className="img-fluid" alt="thumbnail" />
                                     <div className="card-body">
-                                        <h3 className="card-title">{burger.name}</h3>
+                                        <h4 className="card-title">{burger.name}</h4>
                                         <p className="card-text">{burger.desc}</p>
                                         <p>{burger.time}| Serves: 1</p>
                                         <span>${burger.price} <del>$10.70</del></span>
-                                        <a href="#">Add to cart</a>
+                                        <a href="#" className='btn btn-success' >Add to cart</a>
                                     </div>
                                 </div>
                             </div>
@@ -49,7 +49,7 @@ const Menu = () => {
                                 <div className="card my-3">
                                     <img src={pizza.pimg} className="img-fluid" alt="thumbnail" />
                                     <div className="card-body">
-                                        <h3 className="card-title">{pizza.name}</h3>
+                                        <h4 className="card-title">{pizza.name}</h4>
                                         <p className="card-text">{pizza.desc}</p>
                                         <p>{pizza.time}| Serves: 1</p>
                                         <span>${pizza.price} <del>$10.70</del></span>
