@@ -1,21 +1,13 @@
-<<<<<<< HEAD
 import React from 'react';
 import Header from './component/Header';
 import './App.css';
 import HomePage from './pages/homepage/HomePage';
 import Login from './component/Login';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Burger from './component/burger/Burger';
+import Signup from './component/Signup';
+import Footer from './pages/Footer/Footer'
+import Menu from './component/menu/Menu';
 
-=======
-import React from "react";
-import Header from "./component/Header";
-import "./App.css";
-import HomePage from "./pages/homepage/HomePage";
-import Login from "./component/Login";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Signup from "./component/Signup";
->>>>>>> dc9acc76625403a01b3d94fc9e726327e67a6564
 
 function App() {
   return (
@@ -23,16 +15,12 @@ function App() {
       <Header />
 
       <Routes>
-<<<<<<< HEAD
         <Route path="/" element={<HomePage />}></Route>
-        <Route path='/burgers' element={<Burger/>}></Route>
+        <Route path="/sign-up" element={<Signup/>}></Route>
         <Route path="login" element={<Login />}></Route>
-=======
-        <Route path="/" element={<Signup />} />
-        <Route path="homePage" element={<HomePage />} />
-        <Route path="login" element={<Login />} />
->>>>>>> dc9acc76625403a01b3d94fc9e726327e67a6564
+        <Route path='/menu' element={<Menu/>}></Route>
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }

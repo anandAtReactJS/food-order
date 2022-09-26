@@ -17,7 +17,7 @@ function Header() {
             <Nav.Link href="/homePage">home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
             <NavDropdown title="Food-List" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Burger</NavDropdown.Item>
+              <NavDropdown.Item href="/burgers">Burger</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Pizza</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Chinese</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.4">Coffee</NavDropdown.Item>
