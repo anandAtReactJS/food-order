@@ -68,7 +68,8 @@ function HomePage() {
                                         <p className="card-text">{food.desc}</p>
                                         <p>{food.time}| Serves: 1</p>
                                         <span>${food.price} <del>$10.70</del></span>
-                                        <a href="#" className="btn btn-danger">Order Now</a>
+                                        <a href="#">Order Now</a>
+                                        <a href='#' className='btn btn-linkt'>View All</a>
                                     </div>
                                 </div>
                             </div>
