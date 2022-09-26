@@ -14,8 +14,8 @@ function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#features">home</Nav.Link>
-            <Nav.Link href="#pricing">About</Nav.Link>
+            <Nav.Link href="/homePage">home</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
             <NavDropdown title="Food-List" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Burger</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Pizza</NavDropdown.Item>
@@ -41,9 +41,9 @@ function Header() {
 
           </Nav>
           <Nav className='justify-content-between'>
-            <Nav.Link href="#deets">Login</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes" mr-4>Sign-Up</Nav.Link>
-            <Nav.Link eventKey={3} href="#memes">Cart <ShoppingBasketIcon/></Nav.Link>
+            <Nav.Link href="/login">Login</Nav.Link>
+            <Nav.Link eventKey={2} href="/" mr-4>Sign-Up</Nav.Link>
+            <Nav.Link eventKey={3} href="/cart">Cart <ShoppingBasketIcon/></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
