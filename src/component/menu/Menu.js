@@ -53,7 +53,7 @@ const Menu = () => {
                                         <p className="card-text">{pizza.desc}</p>
                                         <p>{pizza.time}| Serves: 1</p>
                                         <span>${pizza.price} <del>$10.70</del></span>
-                                        <a href="#">Add to cart</a>
+                                        <a href="#" className='btn btn-success'>Add to cart</a>
                                     </div>
                                 </div>
                             </div>
