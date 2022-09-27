@@ -17,25 +17,9 @@ function Header({}) {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-<<<<<<< HEAD
             <Nav.Link href="/homePage">Home</Nav.Link>
             <Nav.Link href="/about">About Us</Nav.Link>
             <Nav.Link href="/menu">Menu</Nav.Link>
-=======
-            <Nav.Link href="/homePage">home</Nav.Link>
-            <Nav.Link href="/about">About</Nav.Link>
-            <NavDropdown title="Food-List" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="/burgers">Burger</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Pizza</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Chinese</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">Coffee</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.5">Shakes</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.6">Pure-veg</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.7">Non-veg</NavDropdown.Item>
-              
-              
-            </NavDropdown>
->>>>>>> 7472d0ce703c617216d0cbf0bc5e15072c637ec2
           </Nav>
 
           <Nav>

@@ -6,19 +6,40 @@ import './menu.css';
 
 
 const Menu = () => {
-    
-    const [dishes,setDishes]=useState([]);
 
+    const [dishes, setDishes] = useState([]);
+
+    const fetchProducts = () => {
         fetch('http://localhost:3000/food-order/dishes.json').then(data => data.json()).then(dish => setDishes(dish));
-    
+        console.log('Fetch products');
+    }
+    const filterProducts = (e) => {
+        if (e.target.value == '') {
+            fetchProducts();
+            console.log('Fetch products');
+        }
+        else {
+            setDishes({
+                dishes: dishes.filter(product => product.name.toLowerCase().indexOf(e.target.value.toLowerCase()) !== -1)
+            })
+        }
+
+    }
+
 
     return (
         <div>
-            
+
             <section className="bg-light py-4 my-5">
                 <div className="container">
                     <div className="row">
-                        <h2 style={{ color: 'black', fontFamily: 'cursive', fontStyle: 'italic', textAlign: 'center' }}>Delicious Burgers</h2>
+                        <h2 style={{ color: 'black', fontFamily: 'cursive', fontStyle: 'italic', textAlign: 'center' }}>Our Menu</h2>
+                        <div>
+                            <form className="d-flex ms-auto">
+                                <input type="text" className="form-control me-sm-2" placeholder="Search Burger,Pizza's & Chinese dishes " onChange={filterProducts} />
+                            </form>
+                            <br />
+                        </div>
                         {dishes.map(dish => (
                             <div id={dish.id} className="col-md-6 col-lg-4 burger">
                                 <div className="card my-3">
