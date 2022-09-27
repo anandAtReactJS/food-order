@@ -1,0 +1,83 @@
+[
+    {
+        "id":"100",
+        "name":"Crispy Veg Patty Burger",
+        "desc":"Our Best-Selling Burger With Crispy Veg Patty, Fresh Onion And Our Signature Sauce",
+        "time":"Time: 10-12 Minutes",
+        "price":"5.20",
+        "pimg":"https://b.zmtcdn.com/data/pictures/chains/5/61555/b9cda61d3277a30e0fa2a12153ba0925.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+    },
+    {
+        "id":"101",
+        "name":"Crispy Veg Burger",
+        "desc":"Our Best-Selling Burger With Crispy Veg Patty, Fresh Onion And Our Signature Sauce",
+        "time":"Time: 15-20 Minutes",
+        "price":"10.20",
+        "pimg":"https://b.zmtcdn.com/data/pictures/chains/5/61555/b4ab4ade2d5fcc1acb2122aa8c936ded.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+    },
+    {
+        "id":"102",
+        "name":"Veg Whopper",
+        "desc":"Our Best-Selling Burger With Crispy Veg Patty, Fresh Onion And Our Signature Sauce",
+        "time":"Time: 15-20 Minutes",
+        "price":"5.20",
+        "pimg":"https://b.zmtcdn.com/data/pictures/chains/5/61555/b9cda61d3277a30e0fa2a12153ba0925.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+    },
+    {
+        "id":"103",
+        "name":"Tikki Twist Burger",
+        "desc":"Our Best-Selling Burger With Crispy Veg Patty, Fresh Onion And Our Signature Sauce",
+        "time":"Time: 10-12 Minutes",
+        "price":"3.20",
+        "pimg":"https://b.zmtcdn.com/data/pictures/chains/5/61555/b4ab4ade2d5fcc1acb2122aa8c936ded.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+    },
+    {
+        "id":"104",
+        "name":"Whopper Duo - Veg",
+        "desc":"Our Best-Selling Burger With Crispy Veg Patty, Fresh Onion And Our Signature Sauce",
+        "time":"Time: 12-15 Minutes",
+        "price":"13.20",
+        "pimg":"https://b.zmtcdn.com/data/pictures/chains/5/61555/a42a0dea99f292698e08249aec6ee094.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+    },
+    {
+        "id":"105",
+        "name":"Chicken Whopper",
+        "desc":"Our Best-Selling Burger With Crispy Non Veg Patty, Fresh Onion And Our Signature Sauce",
+        "time":"Time: 12-15 Minutes",
+        "price":"3.20",
+        "pimg":"https://b.zmtcdn.com/data/pictures/chains/5/61555/a0d19e94f696f996f0e88de6b0c88dd8.png?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+    },
+    {
+        "id":"106",
+        "name":"Crispy Chicken Burger",
+        "desc":"Our Best-Selling Burger With Crispy Non Veg Patty, Fresh Onion And Our Signature Sauce",
+        "time":"Time: 12-15 Minutes",
+        "price":"11.20",
+        "pimg":"https://b.zmtcdn.com/data/pictures/chains/5/61555/b9cda61d3277a30e0fa2a12153ba0925.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+    },
+    {
+        "id":"107",
+        "name":"Chicken Makhani Burger",
+        "desc":"Our Best-Selling Burger With Crispy Non Veg Patty, Fresh Onion And Our Signature Sauce",
+        "time":"Time: 12-15 Minutes",
+        "price":"10.20",
+        "pimg":"https://b.zmtcdn.com/data/pictures/chains/5/61555/30154eddceb6cb540ce5a245a939c116.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+    },
+    {
+        "id":"108",
+        "name":"Chicken Tandoori Burger",
+        "desc":"Our Best-Selling Burger With Crispy Non Veg Patty, Fresh Onion And Our Signature Sauce",
+        "time":"Time: 12-15 Minutes",
+        "price":"3.20",
+        "pimg":"https://b.zmtcdn.com/data/pictures/chains/5/61555/6a7ececd5a216e3e6b3c468646adc09d.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+    },
+    {
+        "id":"109",
+        "name":"Mutton Whopper Double Patty",
+        "desc":"Our Best-Selling Burger With Crispy Non Veg Patty, Fresh Onion And Our Signature Sauce",
+        "time":"Time: 12-15 Minutes",
+        "price":"11.20",
+        "pimg":"https://b.zmtcdn.com/data/pictures/chains/5/61555/f8d54ccb00ca16ba713dceaeb20ab974.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+    }
+   
+]

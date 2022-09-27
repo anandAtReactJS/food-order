@@ -60,15 +60,13 @@ function HomePage() {
                         {menu.map(food => (
                             <div id={menu.id} className="col-md-6 col-lg-4">
                                 <div className="card my-3">
-                                    <div className="card-thumbnail">
-                                        <img src={food.pimg} className="img-fluid" alt="thumbnail" />
-                                    </div>
+                                        <img src={food.pimg} style={{height:'200px',width:'200px',margin:'auto',borderRadius:'50%'}} className="img-fluid" alt="thumbnail" />
                                     <div className="card-body">
                                         <h3 className="card-title">{food.name}</h3>
                                         <p className="card-text">{food.desc}</p>
                                         <p>{food.time}| Serves: 1</p>
                                         <span>${food.price} <del>$10.70</del></span>
-                                        <a href="#" className="btn btn-danger">Order Now</a>
+                                        <a href="#" className='btn btn-success'>Order Now</a>
                                     </div>
                                 </div>
                             </div>
