@@ -20,14 +20,14 @@ const SearchBar = () => {
         fetchData();
     },[])
 
-    const handleFilter = (event) => {
-        event.preventDefault();
-        const search = event.target.value
-        .toLowerCase()
-        .normalize("NDF")
-        .replace(/[u0300-u036f]/g)
-        setQuery(search)
-    }
+    // const handleFilter = (event) => {
+    //     event.preventDefault();
+    //     const search = event.target.value
+    //     .toLowerCase()
+    //     .normalize("NDF")
+    //     .replace(/[u0300-u036f]/g)
+    //     setQuery(search)
+    // }
 
 
   return (
@@ -35,7 +35,7 @@ const SearchBar = () => {
     <>
     <div className="search">
         <div className="searchInputs">
-            <input type="text" placeholder='Search...'  onChange={handleFilter} />
+            <input type="text" placeholder='Search...'   />
             </div>
 
             { query.length  != 0 && (

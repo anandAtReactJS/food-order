@@ -2,12 +2,19 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import './menu.css';
+// import { useDispatch } from 'react-redux';
 
 
 
 const Menu = () => {
     
     const [dishes,setDishes]=useState([]);
+
+    // const dispatch = useDispatch
+    // const send = (e) =>{
+    //     console.log(e)
+
+    // }
 
         fetch('http://localhost:3000/food-order/dishes.json').then(data => data.json()).then(dish => setDishes(dish));
     
@@ -28,7 +35,8 @@ const Menu = () => {
                                         <p className="card-text">{dish.desc}</p>
                                         <p>{dish.time}| Serves: 1</p>
                                         <span>${dish.price} <del>$10.70</del></span>
-                                        <a href="#" className='btn btn-success' >Add to cart</a>
+                                        <a href="#" className='btn btn-success'  >Add to cart</a>
+                                        {/* onClick={()=> send(dish)} */}
                                     </div>
                                 </div>
                             </div>

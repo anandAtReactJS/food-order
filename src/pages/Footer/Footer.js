@@ -47,7 +47,7 @@ function Footer() {
                                 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved.</p>
                         </div>
                         <div className="col-md-6 col-lg-4 text-md-right">
-                            <p className="copyright">Website developed with <i className="ion-ios-heart" aria-hidden="true"></i> by <a href="#" target="_blank">Anand Desai</a>
+                            <p className="copyright">Website developed with <i className="ion-ios-heart" aria-hidden="true"></i> <a href="#" target="_blank"></a>
                             </p>
                         </div>
                     </div>
