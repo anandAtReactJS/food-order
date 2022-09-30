@@ -3,9 +3,10 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 import React, { useState } from "react";
-import Form from "react-bootstrap/Form";
+// import Form from "react-bootstrap/Form";
 import Foodies from "../component/foodie.png";
 import { Badge } from "@material-ui/core";
+import SearchBar from "./SearchBar";
 
 function Header({}) {
   return (
@@ -21,8 +22,9 @@ function Header({}) {
             <Nav.Link href="/about">About Us</Nav.Link>
             <Nav.Link href="/menu">Menu</Nav.Link>
           </Nav>
+          <SearchBar/>
 
-          <Nav>
+          {/* <Nav>
             <Form className="d-flex">
               <Form.Control
                 type="search"
@@ -32,7 +34,7 @@ function Header({}) {
                 // onChange={handleFilter}
               />
             </Form>
-          </Nav>
+          </Nav> */}
           <Nav className="justify-content-between">
             <Nav.Link href="/login">Login</Nav.Link>
             <Nav.Link eventKey={2} href="/food-order" mr-4>
