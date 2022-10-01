@@ -6,12 +6,19 @@ import React, { useState, useEffect } from "react";
 // import Form from "react-bootstrap/Form";
 import Foodies from "../component/foodie.png";
 import { Badge } from "@material-ui/core";
-import SearchBar from "./SearchBar";
+// import SearchBar from "../component/SearchBar";
+// import Data from '../component/Data.json'
+import { useSelector } from 'react-redux';
+// import Cart from "./Cart";
+// import { cartReducer } from "../Redux/reducer/reducer";
+
 
 
 // import { DLT } from '../redux/actions/action';
 
-function Header({}) {
+const Header = ()  =>{
+  const getdata = useSelector((state) => state.cartReducer.carts)
+    console.log(getdata)
  
 
   return (
@@ -27,7 +34,11 @@ function Header({}) {
             <Nav.Link href="/about">About Us</Nav.Link>
             <Nav.Link href="/menu">Menu</Nav.Link>
           </Nav>
-          <SearchBar/>
+          {/* <Nav>
+          
+          <SearchBar data={Data}/>
+          </Nav> */}
+          
 
           {/* <Nav>
             <Form className="d-flex">
@@ -47,7 +58,7 @@ function Header({}) {
             </Nav.Link>
             <Nav.Link eventKey={3} href="/cart" >
               Cart
-              <Badge badgeContent={4} color="primary" >
+              <Badge badgeContent={getdata.length} color="primary" >
                 <ShoppingBasketIcon />
               </Badge>
               

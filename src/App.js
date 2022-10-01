@@ -9,6 +9,8 @@ import Cart from "./component/Cart";
 // import Footer from './pages/Footer/Footer'
 import Menu from './component/menu/Menu';
 import About from './component/About';
+// import SearchBar from './component/SearchBar';
+// import BookData from './component/Data.json'
 
 
 
@@ -17,7 +19,7 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      
+      {/* <SearchBar placeholder="Search..." data={BookData} /> */}
       <Routes>
 
         <Route path="/food-order" element={<Signup />} />

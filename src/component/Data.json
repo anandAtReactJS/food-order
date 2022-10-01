@@ -18,7 +18,7 @@
   {
     "id": "102",
     "name": "Margherita pizza",
-    "desc": "Classic delight with 100% real mozzarella cheese, fresh capsicum and onion Signature Sauce",
+    "desc": "Classic delight with 100% real mozzarella cheese",
     "time": "Time: 10-12 Minutes",
     "price": "5.20",
     "pimg": "https://b.zmtcdn.com/data/pictures/chains/2/50382/37f6ce4eefbdfb4f5598ae262849b57a.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
@@ -42,7 +42,7 @@
   {
     "id": "105",
     "name": "Peppy Paneer",
-    "desc": "Fresh noodles tossed with carrot, cabbage, green capsicum, beans sprouts, spring onion",
+    "desc": "Classic delight with 100% real mozzarella cheese",
     "time": "Time: 15-20 Minutes",
     "price": "10.20",
     "pimg": "https://b.zmtcdn.com/data/pictures/chains/2/50382/e38a58c964554dd10abf7dbe20895bfa.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
@@ -66,14 +66,14 @@
   {
     "id": "108",
     "name": "Spiced Double Chicken",
-    "desc": "Fresh noodles tossed with carrot, cabbage, green capsicum, beans sprouts, spring onion",
+    "desc": "Classic delight with 100% real mozzarella cheese",
     "time": "Time: 12-15 Minutes",
     "price": "11.20",
-    "pimg": "https://b.zmtcdn.com/data/pictures/chains/2/50382/37f6ce4eefbdfb4f5598ae262849b57a.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+    "pimg": "https://media.istockphoto.com/photos/butter-chicken-pizza-picture-id1043604390?b=1&k=20&m=1043604390&s=170667a&w=0&h=jBciV6gsbgr6ojopbcec0EillENYwi3a8v-DyhEEITQ="
   },
   {
     "id": "109",
-    "name": "Mutton Whopper  Patty",
+    "name": "Mutton Whopper Double Patty",
     "desc": "Our Best-Selling Burger With Crispy Non Veg Patty, Fresh Onion And Our Signature Sauce",
     "time": "Time: 12-15 Minutes",
     "price": "11.20",
@@ -90,7 +90,7 @@
   {
     "id": "111",
     "name": "Chicken Dominator",
-    "desc": "Classic delight with 100% real mozzarella cheese,Fresh Onion And Our Signature Sauce",
+    "desc": "Classic delight with 100% real mozzarella cheese",
     "time": "Time: 12-15 Minutes",
     "price": "11.20",
     "pimg": "https://b.zmtcdn.com/data/pictures/chains/2/50382/c2ce168c182acd647702193a23f40525.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
