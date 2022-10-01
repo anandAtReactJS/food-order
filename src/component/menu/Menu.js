@@ -9,23 +9,8 @@ const Menu = () => {
 
     const [dishes, setDishes] = useState([]);
 
-    const fetchProducts = () => {
         fetch('http://localhost:3000/food-order/dishes.json').then(data => data.json()).then(dish => setDishes(dish));
         console.log('Fetch products');
-    }
-    const filterProducts = (e) => {
-        if (e.target.value == '') {
-            fetchProducts();
-            console.log('Fetch products');
-        }
-        else {
-            setDishes({
-                dishes: dishes.filter(product => product.name.toLowerCase().indexOf(e.target.value.toLowerCase()) !== -1)
-            })
-        }
-
-    }
-
 
     return (
         <div>
@@ -36,7 +21,7 @@ const Menu = () => {
                         <h2 style={{ color: 'black', fontFamily: 'cursive', fontStyle: 'italic', textAlign: 'center' }}>Our Menu</h2>
                         <div>
                             <form className="d-flex ms-auto">
-                                <input type="text" className="form-control me-sm-2" placeholder="Search Burger,Pizza's & Chinese dishes " onChange={filterProducts} />
+                                <input type="text" className="form-control me-sm-2" placeholder="Search Burger,Pizza's & Chinese dishes"/>
                             </form>
                             <br />
                         </div>
