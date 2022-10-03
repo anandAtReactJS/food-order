@@ -147,9 +147,9 @@ useEffect(()=>{
                         
                    <div className='card_details d-flex justify-content-center align-items-center' style={{width:"24rem",padding:10,position:"relative"}}>
                     <i className='fas fa-close smallclose'
-                    // onClick={handleClose}
+                    onClick={handleClose}
                      style={{position:"absolute",top:2,right:20,fontSize:23,cursor:"pointer"}}></i>
-                    <p style={{fontSize:22}}>Your carts is empty</p>
+                    <p style={{fontSize:22}}>Your cart is empty</p>
                     <img src="./cart.gif" alt="" className='emptycart_img' style={{width:"5rem",padding:10}} />
                    </div>
                     }
