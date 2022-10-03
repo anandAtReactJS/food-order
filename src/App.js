@@ -17,17 +17,17 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      {/* <SearchBar placeholder="Search..." data={BookData} /> */}
+      
       <Routes>
         <Route path="/food-order" element={<Signup />} />
         <Route path="login" element={<Login />} />
         <Route path="/homePage" element={<HomePage />} />
-        {/* <Route path="cart" element={<Cart />} /> */}
+        
         <Route path="menu" element={<Menu/>} />
         <Route path="about" element={<AboutUs />} />
       <Route path="/cart/:id" element={<ItemDetails/>}/>
         
-        {/* <Route path="about" element={<About/>} /> */}
+       
 
 
 

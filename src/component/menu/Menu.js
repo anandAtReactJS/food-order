@@ -40,8 +40,7 @@ const Menu = () => {
                                         <p className="card-text">{dish.desc}</p>
                                         <p>{dish.time}| Serves: 1</p>
                                         <span>${dish.price} <del>$10.70</del></span>
-                                        {/* <a href="#" className='btn btn-success'  >Add to cart</a>
-                                        onClick={()=> send(dish)} */}
+                                       
                                         <button className='btn btn-success' onClick={() =>send(dish)} >Add to cart</button>
                                     </div>
                                 </div>

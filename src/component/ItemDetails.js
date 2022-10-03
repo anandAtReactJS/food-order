@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Table from 'react-bootstrap/Table'
 import {useParams, useNavigate} from "react-router-dom"
 import { useDispatch, useSelector } from 'react-redux/es/exports'
-// import { DLT,ADD,REMOVE } from '../Redux/actions'
+
 import {DLT,ADD,REMOVE} from '../Redux/actions/action'
 import { DiscFullSharp } from '@mui/icons-material'
 
@@ -65,7 +65,7 @@ const ItemDetails = () => {
                         <td>
                             <p><strong>Name:</strong> {dish.name} </p>
                             <p><strong>Price:</strong>{dish.price}</p>
-                            {/* <p><strong>Dishes:</strong> {.address}</p>6 */}
+                            
                             <p><strong>Total:</strong>{dish.price * dish.qnty} </p>
 
                             <div className='mt-5 d-flex justify-content-between align-items-center' style={{width:100,cursor:"pointer", background:"#ddd",color:"#111"}}>
@@ -76,8 +76,7 @@ const ItemDetails = () => {
                             </div>
                         </td>
                         <td>
-                        {/* <p><strong>Rating:</strong> <span style={{background:"green", color: "#fff",padding:"2px 5px",borderRadius:"5px"}}>{dish.rating}</span></p>
-                        <p><strong>Order Review:</strong> <span>{dish.somedata}</span></p> */}
+                        
                         <p><strong>Remove:</strong> <span><i className='fas fa-trash' onClick={() => dlt(dish.id)} style={{color:"red", fontSize:20,cursor:"pointer"}}></i></span></p>
                </td>
                     </tr>
