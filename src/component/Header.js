@@ -3,15 +3,9 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 import React, { useState, useEffect } from "react";
-// import Form from "react-bootstrap/Form";
 import Foodies from "../component/foodie.png";
 import { Badge } from "@material-ui/core";
-// import SearchBar from "../component/SearchBar";
-// import Data from '../component/Data.json'
-import { useDispatch, useSelector } from 'react-redux';
-// import Cart from "./Cart";
-// import { cartReducer } from "../Redux/reducer/reducer";
-// import { ADD } from "../Redux/actions/Action"; 
+import { useDispatch, useSelector } from 'react-redux'; 
 import { NavLink } from 'react-router-dom';
 import Table from 'react-bootstrap/esm/Table';
 import Menu from '@mui/material/Menu';
@@ -81,8 +75,13 @@ useEffect(()=>{
             <Nav.Link href="/login">Login</Nav.Link>
             <Nav.Link eventKey={2} href="/food-order" mr-4>
               Sign-Up
+<<<<<<< HEAD
             </Nav.Link> 
             <Nav.Link  href="" onClick={ handleClick}  >
+=======
+            </Nav.Link>
+            <Nav.Link  href="" onClick={ handleClick} >
+>>>>>>> ae8066bcc3536bd44b2970fdca02cb9ba1f9a98f
               Cart
               <Badge badgeContent={getdata.length} color="primary"  
                id="basic-button"
