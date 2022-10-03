@@ -2,15 +2,14 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import './menu.css';
-
 import { useDispatch } from 'react-redux';
 import { ADD } from '../../Redux/actions/action';
 
 
 
 const Menu = () => {
-    
-    const [dishes,setDishes]=useState([]);
+
+    const [dishes, setDishes] = useState([]);
 
     const dispatch = useDispatch();
 
@@ -23,20 +22,16 @@ const Menu = () => {
     }
 
         fetch('http://localhost:3000/food-order/dishes.json').then(data => data.json()).then(dish => setDishes(dish));
-    
+        console.log('Fetch products');
 
     return (
         <div>
-            
+
             <section className="bg-light py-4 my-5">
                 <div className="container">
-                    {/* <input type="text"  placeholder='Search...' onChange={(event) => {setSearchTerm(event.target.value); }}/> */}
                     <div className="row">
-                        <h2 style={{ color: 'black', fontFamily: 'cursive', fontStyle: 'italic', textAlign: 'center' }}>Delicious Burgers</h2>
-                        {dishes.map((dish,id) => {
-                            return(
-                                <>
-                            
+                        <h2 style={{ color: 'black', fontFamily: 'cursive', fontStyle: 'italic', textAlign: 'center' }}>Our Menu</h2>
+                        {dishes.map(dish => (
                             <div id={dish.id} className="col-md-6 col-lg-4 burger">
                                 <div className="card my-3">
                                     <img src={dish.pimg} className="img-fluid" alt="thumbnail" />
@@ -51,11 +46,7 @@ const Menu = () => {
                                     </div>
                                 </div>
                             </div>
-                            </>
-                            )
-                                    }
-
-                        )}
+                            ))}
                     </div>
                 </div>
             </section>

@@ -7,8 +7,13 @@ import React, { useState, useEffect } from "react";
 import Foodies from "../component/foodie.png";
 import { Badge } from "@material-ui/core";
 // import SearchBar from "../component/SearchBar";
+<<<<<<< HEAD
 // import Data from '../component/Data.json'
 import { useDispatch, useSelector } from 'react-redux';
+=======
+ import Data from '../component/Data.json'
+import { useSelector } from 'react-redux';
+>>>>>>> 4422891dfc91d91833d45e68e060b2038abb0ddb
 // import Cart from "./Cart";
 // import { cartReducer } from "../Redux/reducer/reducer";
 // import { ADD } from "../Redux/actions/Action"; 
@@ -82,6 +87,7 @@ useEffect(()=>{
             <Nav.Link eventKey={2} href="/food-order" mr-4>
               Sign-Up
             </Nav.Link>
+<<<<<<< HEAD
             <Nav.Link  href="" onClick={ handleClick} >
               Cart
               <Badge badgeContent={getdata.length} color="primary"  
@@ -90,6 +96,11 @@ useEffect(()=>{
                aria-haspopup="true"
                aria-expanded={open ? 'true' : undefined}
                onClick={handleClick}>
+=======
+            <Nav.Link eventKey={3} href="/cart" >
+              
+              <Badge badgeContent={getdata.length} color="primary" >
+>>>>>>> 4422891dfc91d91833d45e68e060b2038abb0ddb
                 <ShoppingBasketIcon />
               </Badge>
               

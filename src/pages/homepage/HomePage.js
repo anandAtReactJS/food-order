@@ -10,7 +10,7 @@ function HomePage() {
 
     const [menu, setMenu] = useState([]);
 
-    fetch('http://localhost:3000/food-order/menu.json').then(data => data.json()).then(menu => setMenu(menu));
+    fetch('http://localhost:3001/food-order/menu.json').then(data => data.json()).then(menu => setMenu(menu));
 
     return (
         <div>
