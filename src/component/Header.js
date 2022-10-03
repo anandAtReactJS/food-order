@@ -75,13 +75,8 @@ useEffect(()=>{
             <Nav.Link href="/login">Login</Nav.Link>
             <Nav.Link eventKey={2} href="/food-order" mr-4>
               Sign-Up
-<<<<<<< HEAD
             </Nav.Link> 
             <Nav.Link  href="" onClick={ handleClick}  >
-=======
-            </Nav.Link>
-            <Nav.Link  href="" onClick={ handleClick} >
->>>>>>> ae8066bcc3536bd44b2970fdca02cb9ba1f9a98f
               Cart
               <Badge badgeContent={getdata.length} color="primary"  
                id="basic-button"
