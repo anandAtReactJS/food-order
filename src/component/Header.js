@@ -2,13 +2,25 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 // import Form from "react-bootstrap/Form";
 import Foodies from "../component/foodie.png";
 import { Badge } from "@material-ui/core";
-import SearchBar from "./SearchBar";
+// import SearchBar from "../component/SearchBar";
+ import Data from '../component/Data.json'
+import { useSelector } from 'react-redux';
+// import Cart from "./Cart";
+// import { cartReducer } from "../Redux/reducer/reducer";
 
-function Header({}) {
+
+
+// import { DLT } from '../redux/actions/action';
+
+const Header = ()  =>{
+  const getdata = useSelector((state) => state.cartReducer.carts)
+    console.log(getdata)
+ 
+
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
@@ -22,7 +34,11 @@ function Header({}) {
             <Nav.Link href="/about">About Us</Nav.Link>
             <Nav.Link href="/menu">Menu</Nav.Link>
           </Nav>
-          <SearchBar/>
+          {/* <Nav>
+          
+          <SearchBar data={Data}/>
+          </Nav> */}
+          
 
           {/* <Nav>
             <Form className="d-flex">
@@ -40,11 +56,12 @@ function Header({}) {
             <Nav.Link eventKey={2} href="/food-order" mr-4>
               Sign-Up
             </Nav.Link>
-            <Nav.Link eventKey={3} href="/cart">
-              Cart
-              <Badge badgeContent={4} color="primary">
+            <Nav.Link eventKey={3} href="/cart" >
+              
+              <Badge badgeContent={getdata.length} color="primary" >
                 <ShoppingBasketIcon />
               </Badge>
+              
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

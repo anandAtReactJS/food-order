@@ -13,7 +13,7 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      
+      {/* <SearchBar placeholder="Search..." data={BookData} /> */}
       <Routes>
         <Route path="/food-order" element={<Signup />} />
         <Route path="login" element={<Login />} />
