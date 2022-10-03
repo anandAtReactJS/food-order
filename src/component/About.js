@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from '../pages/Footer/Footer'
+// import Footer from '../pages/Footer/Footer'
 
 const About = () => {
   return (
@@ -20,7 +20,7 @@ const About = () => {
     </div>
     <div className="contact">
     <h1 className="head " style={{textAlign:"center", color:" green"}}>Contact Us</h1>
-    <Footer/>
+    {/* <Footer/> */}
     </div>
     </>
   )

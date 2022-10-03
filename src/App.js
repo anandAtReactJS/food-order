@@ -5,7 +5,6 @@ import HomePage from './pages/homepage/HomePage';
 import Login from './component/Login';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Signup from "./component/Signup";
-<<<<<<< HEAD
 // import Cart from "./component/Cart";
 // import Footer from './pages/Footer/Footer'
 import Menu from './component/menu/Menu';
@@ -16,11 +15,6 @@ import About from './component/About';
 
 
 
-=======
-import Cart from "./component/Cart";
-import Menu from './component/menu/Menu';
-import AboutUs from './pages/about-us/AboutUs'
->>>>>>> 4422891dfc91d91833d45e68e060b2038abb0ddb
 
 function App() {
   return (
@@ -33,7 +27,6 @@ function App() {
         <Route path="homePage" element={<HomePage />} />
         {/* <Route path="cart" element={<Cart />} /> */}
         <Route path="menu" element={<Menu/>} />
-<<<<<<< HEAD
         <Route path="about" element={<About />} />
       <Route path="/cart/:id" element={<ItemDetails/>}/>
         
@@ -42,9 +35,6 @@ function App() {
 
 
         
-=======
-        <Route path="/about" element={<AboutUs/>}/>
->>>>>>> 4422891dfc91d91833d45e68e060b2038abb0ddb
       </Routes>
     </BrowserRouter>
   );

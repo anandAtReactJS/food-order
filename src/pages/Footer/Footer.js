@@ -1,8 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './css/style.css';
-import './css/ionicons.min.css';
-import logo from './images/logo.png'
+// import './css/style.css';
+// import './css/ionicons.min.css';
+// import logo from './images/logo.png'
 
 
 function Footer() {
@@ -12,7 +12,7 @@ function Footer() {
                 <div className="container">
                     <div className="row border-bottom mb-5 pb-4 align-items-center">
                         <div className="col-md-6 mb-md-0 mb-4">
-                            <img style={{ borderRadius: '50%' }} src={logo} height="100" alt="CoolBrand" /><h2 className="logo"><a href="#">foodies.com <span>One stop for all your cravings</span></a></h2>
+                            <img style={{ borderRadius: '50%' }} src={} height="100" alt="CoolBrand" /><h2 className="logo"><a href="#">foodies.com <span>One stop for all your cravings</span></a></h2>
                         </div>
                         <div className="col-md-6 mb-md-0 mb-4 text-md-right">
                             <ul className="ftco-footer-social p-0 mb-0">
