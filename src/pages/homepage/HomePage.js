@@ -17,64 +17,27 @@ function HomePage() {
             <Carousel >
                 <Carousel.Item >
                     <img className="d-block w-100" style={{ height: '450px' }} src="https://images.unsplash.com/photo-1598514982901-ae62764ae75e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="First slide" />
-                    <Carousel.Caption>
-                        <h2 style={{ color: 'whitesmoke', fontFamily: 'cursive', fontStyle: 'italic' }}>Starters</h2>
-                    </Carousel.Caption>
                 </Carousel.Item>
 
                 <Carousel.Item>
                     <img className="d-block w-100" style={{ height: '450px' }} src="https://images.unsplash.com/photo-1631515242808-497c3fbd3972?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1232&q=80" alt="Second slide" />
-                    <Carousel.Caption>
-                        <h2 style={{ color: 'whitesmoke', fontFamily: 'cursive', fontStyle: 'italic' }}>Main Course</h2>
-                    </Carousel.Caption>
                 </Carousel.Item>
 
 
                 <Carousel.Item>
                     <img className="d-block w-100" style={{ height: '450px' }} src="https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1188&q=80" alt="Third slide" />
-                    <Carousel.Caption>
-                        <h2 style={{ color: 'whitesmoke', fontFamily: 'cursive', fontStyle: 'italic' }}>Biryani</h2>
-                    </Carousel.Caption>
                 </Carousel.Item>
 
                 <Carousel.Item>
                     <img className="d-block w-100" style={{ height: '450px' }} src="https://images.unsplash.com/photo-1601387434127-20979856e76e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Third slide" />
-                    <Carousel.Caption>
-                        <h2 style={{ color: 'whitesmoke', fontFamily: 'cursive', fontStyle: 'italic' }}>Indian Breads</h2>
-                    </Carousel.Caption>
                 </Carousel.Item>
 
                 <Carousel.Item>
                     <img className="d-block w-100" style={{ height: '450px' }} src="https://images.unsplash.com/photo-1560801619-01d71da0f70c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Third slide" />
-                    <Carousel.Caption>
-                        <h2 style={{ color: 'whitesmoke', fontFamily: 'cursive', fontStyle: 'italic' }}>Ice Creams</h2>
-                    </Carousel.Caption>
                 </Carousel.Item>
 
             </Carousel>
             <br /><br />
-            <section className="bg-light py-4 my-5">
-                <div className="container">
-                    <div className="row">
-                            <h2 style={{ color: 'black', fontFamily: 'cursive', fontStyle: 'italic', textAlign: 'center' }}>Explore Foodies Menu</h2>
-                        {menu.map(food => (
-                            <div id={menu.id} className="col-md-6 col-lg-4">
-                                <div className="card my-3">
-                                        <img src={food.pimg} style={{height:'200px',width:'200px',margin:'auto',borderRadius:'50%'}} className="img-fluid" alt="thumbnail" />
-                                    <div className="card-body">
-                                        <h3 className="card-title">{food.name}</h3>
-                                        <p className="card-text">{food.desc}</p>
-                                        <p>{food.time}| Serves: 1</p>
-                                        <span>${food.price} <del>$10.70</del></span>
-                                        <a href="#" className='btn btn-success'>Order Now</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        ))}
-                    </div>
-                </div>
-            </section>
 
             <br /><br />
             <section id="about">
