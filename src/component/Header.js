@@ -50,8 +50,8 @@ const Header = () => {
 
 const total = ()=>{
     let price = 0;
-    getdata.map((ele,k)=>{
-        price = ele.price * ele.qnty + price
+    getdata.map((dish,k)=>{
+        price = dish.price * dish.qnty + price
     });
     setPrice(price);
 };
@@ -81,8 +81,8 @@ useEffect(()=>{
             <Nav.Link href="/login">Login</Nav.Link>
             <Nav.Link eventKey={2} href="/food-order" mr-4>
               Sign-Up
-            </Nav.Link>
-            <Nav.Link  href="/" onClick={ handleClick} >
+            </Nav.Link> 
+            <Nav.Link  href="" onClick={ handleClick}  >
               Cart
               <Badge badgeContent={getdata.length} color="primary"  
                id="basic-button"
@@ -153,7 +153,7 @@ useEffect(()=>{
                         
                    <div className='card_details d-flex justify-content-center align-items-center' style={{width:"24rem",padding:10,position:"relative"}}>
                     <i className='fas fa-close smallclose'
-                    // onClick={handleClose}
+                    onClick={handleClose}
                      style={{position:"absolute",top:2,right:20,fontSize:23,cursor:"pointer"}}></i>
                     <p style={{fontSize:22}}>Your carts is empty</p>
                     <img src="./cart.gif" alt="" className='emptycart_img' style={{width:"5rem",padding:10}} />
@@ -166,3 +166,4 @@ useEffect(()=>{
 }
 
 export default Header;
+

@@ -12,6 +12,7 @@ import ItemDetails from './component/ItemDetails';
 import About from './component/About';
 // import SearchBar from './component/SearchBar';
 // import BookData from './component/Data.json'
+import AboutUs from './pages/about-us/AboutUs';
 
 
 
@@ -27,7 +28,7 @@ function App() {
         <Route path="homePage" element={<HomePage />} />
         {/* <Route path="cart" element={<Cart />} /> */}
         <Route path="menu" element={<Menu/>} />
-        <Route path="about" element={<About />} />
+        <Route path="about" element={<AboutUs />} />
       <Route path="/cart/:id" element={<ItemDetails/>}/>
         
         {/* <Route path="about" element={<About/>} /> */}
