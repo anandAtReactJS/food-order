@@ -4,3 +4,18 @@ export const ADD = (item) => {
         payload: item
     }
 }
+export const DLT = (id) => {
+    return{
+        type: "RMV_CART",
+        payload: id
+
+    }
+}
+
+export const REMOVE = (iteam) => {
+    return{
+        type: "RMV_ONE",
+        payload: iteam
+
+    }
+}
