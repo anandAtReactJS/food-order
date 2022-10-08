@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/anandAtReactJS/food-order/static/css/main.b14da419.css",
-    "main.js": "/anandAtReactJS/food-order/static/js/main.a0e5ed3d.js",
-    "static/media/img-2.png": "/anandAtReactJS/food-order/static/media/img-2.b810024430d376b6bd6d.png",
-    "static/media/img-1.png": "/anandAtReactJS/food-order/static/media/img-1.91adf8dc0779a423e014.png",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/anandAtReactJS/food-order/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/fontawesome-webfont.eot": "/anandAtReactJS/food-order/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/anandAtReactJS/food-order/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/foodie.png": "/anandAtReactJS/food-order/static/media/foodie.4886e8dcc8c4f2b682b5.png",
-    "static/media/bg-2.jpg": "/anandAtReactJS/food-order/static/media/bg-2.8dac9ee9eb3e67760871.jpg",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/anandAtReactJS/food-order/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/anandAtReactJS/food-order/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "index.html": "/anandAtReactJS/food-order/index.html",
-    "main.b14da419.css.map": "/anandAtReactJS/food-order/static/css/main.b14da419.css.map",
-    "main.a0e5ed3d.js.map": "/anandAtReactJS/food-order/static/js/main.a0e5ed3d.js.map"
+    "main.css": "/git@github.com:anandAtReactJS/food-order.git/static/css/main.21613dfc.css",
+    "main.js": "/git@github.com:anandAtReactJS/food-order.git/static/js/main.f9eec078.js",
+    "static/media/img-2.png": "/git@github.com:anandAtReactJS/food-order.git/static/media/img-2.b810024430d376b6bd6d.png",
+    "static/media/img-1.png": "/git@github.com:anandAtReactJS/food-order.git/static/media/img-1.91adf8dc0779a423e014.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/git@github.com:anandAtReactJS/food-order.git/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/git@github.com:anandAtReactJS/food-order.git/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/git@github.com:anandAtReactJS/food-order.git/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/foodie.png": "/git@github.com:anandAtReactJS/food-order.git/static/media/foodie.4886e8dcc8c4f2b682b5.png",
+    "static/media/bg-2.jpg": "/git@github.com:anandAtReactJS/food-order.git/static/media/bg-2.8dac9ee9eb3e67760871.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/git@github.com:anandAtReactJS/food-order.git/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/git@github.com:anandAtReactJS/food-order.git/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/git@github.com:anandAtReactJS/food-order.git/index.html",
+    "main.21613dfc.css.map": "/git@github.com:anandAtReactJS/food-order.git/static/css/main.21613dfc.css.map",
+    "main.f9eec078.js.map": "/git@github.com:anandAtReactJS/food-order.git/static/js/main.f9eec078.js.map"
   },
   "entrypoints": [
-    "static/css/main.b14da419.css",
-    "static/js/main.a0e5ed3d.js"
+    "static/css/main.21613dfc.css",
+    "static/js/main.f9eec078.js"
   ]
 }
