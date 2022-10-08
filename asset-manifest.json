@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/anandAtReactJS/food-order.git/static/css/main.6006534c.css",
-    "main.js": "/anandAtReactJS/food-order.git/static/js/main.9f391a07.js",
-    "static/media/img-2.png": "/anandAtReactJS/food-order.git/static/media/img-2.b810024430d376b6bd6d.png",
-    "static/media/img-1.png": "/anandAtReactJS/food-order.git/static/media/img-1.91adf8dc0779a423e014.png",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/anandAtReactJS/food-order.git/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/fontawesome-webfont.eot": "/anandAtReactJS/food-order.git/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/anandAtReactJS/food-order.git/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/foodie.png": "/anandAtReactJS/food-order.git/static/media/foodie.4886e8dcc8c4f2b682b5.png",
-    "static/media/bg-2.jpg": "/anandAtReactJS/food-order.git/static/media/bg-2.8dac9ee9eb3e67760871.jpg",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/anandAtReactJS/food-order.git/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/anandAtReactJS/food-order.git/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "index.html": "/anandAtReactJS/food-order.git/index.html",
-    "main.6006534c.css.map": "/anandAtReactJS/food-order.git/static/css/main.6006534c.css.map",
-    "main.9f391a07.js.map": "/anandAtReactJS/food-order.git/static/js/main.9f391a07.js.map"
+    "main.css": "/food-order/static/css/main.806f067b.css",
+    "main.js": "/food-order/static/js/main.23735301.js",
+    "static/media/img-2.png": "/food-order/static/media/img-2.b810024430d376b6bd6d.png",
+    "static/media/img-1.png": "/food-order/static/media/img-1.91adf8dc0779a423e014.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/food-order/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/food-order/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/food-order/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/foodie.png": "/food-order/static/media/foodie.4886e8dcc8c4f2b682b5.png",
+    "static/media/bg-2.jpg": "/food-order/static/media/bg-2.8dac9ee9eb3e67760871.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/food-order/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/food-order/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/food-order/index.html",
+    "main.806f067b.css.map": "/food-order/static/css/main.806f067b.css.map",
+    "main.23735301.js.map": "/food-order/static/js/main.23735301.js.map"
   },
   "entrypoints": [
-    "static/css/main.6006534c.css",
-    "static/js/main.9f391a07.js"
+    "static/css/main.806f067b.css",
+    "static/js/main.23735301.js"
   ]
 }
