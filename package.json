@@ -1,6 +1,6 @@
 {
   "name": "food-order",
-  "homepage": "https://anandatreactjs.github.io/food-order",
+  "homepage": "https://anandatreactjs.github.io/food-order/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -36,7 +36,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
